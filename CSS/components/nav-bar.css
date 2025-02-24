@@ -4,11 +4,41 @@
   width: 100%;
   background-color: #f9f9fa;
   padding: 20px 30px;
-  box-sizing: border-box;
+  box-sizing: border-box; /*  css에게 box에 패딩이 추가되어도 width에 변화를 주지 말라는 뜻*/
   border-top: 1px solid rgba(0, 0, 0, 0.25);
 }
 
 .nav__list {
+  /* .nav_notification이 얘를 기준으로 위치를 정할 수 있게게 */
   display: flex;
   justify-content: space-between;
+}
+
+.nav__link {
+  position: relative; /* .nav_notification이 얘를 기준으로 위치를 정할 수 있게 */
+  color: #2e363e;
+}
+
+.nav__chats__notification {
+  background-color: tomato;
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 10px;
+  position: absolute; /* 가장 가까운 position:relative 기준으로*/
+  left: 12px;
+  bottom: 8px;
+}
+
+.nav__settings__notification {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  position: absolute;
+  left: 17px;
 }
