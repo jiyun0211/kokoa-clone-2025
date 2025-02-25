@@ -20,15 +20,6 @@
 }
 
 .nav__chats__notification {
-  background-color: tomato;
-  width: 15px;
-  height: 15px;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 10px;
   position: absolute; /* 가장 가까운 position:relative 기준으로*/
   left: 12px;
   bottom: 8px;
