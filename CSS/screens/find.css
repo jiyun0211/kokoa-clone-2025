@@ -1,0 +1,130 @@
+.find-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.find-icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.find-icons__icon i {
+  font-size: 30px;
+}
+
+.find-icons__icon span {
+  margin-top: 15px;
+}
+
+.recommended-friends {
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+  padding: 25px 0px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.recommended-friends__title {
+  font-size: 13px;
+  color: var(--gray);
+}
+
+.recommended-friends span {
+  display: block;
+  margin: 60px 0px;
+  text-align: center;
+  font-size: 16px;
+  color: var(--gray);
+}
+
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+open-chat__header span {
+  opacity: 0.6;
+}
+
+.open-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.open-post__title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.open-post__hasttags {
+  text-transform: uppercase;
+  opacity: 0.6;
+  margin-bottom: 5px;
+}
+
+.open-post__members {
+  display: flex;
+  align-items: center;
+}
+
+.open-post__members img {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.open-post__members__count {
+  opacity: 0.5;
+  font-size: 15px;
+}
+
+.open-post__members .divider {
+  width: 2px;
+  height: 15px;
+  margin: 0px 5px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.open-post__members__status {
+  color: #ffb0e0;
+}
+
+.open-post__photo {
+  position: relative;
+}
+
+.open-post__photo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+}
+
+.open-post__photo__likes {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 4px 5px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 10px;
+  top: 75px;
+  font-size: 12px;
+}
+
+.open-post__photo__likes span {
+  margin-left: 5px;
+}
+
+.open-post__second {
+  border-top: var(--main-border);
+  margin-top: 10px;
+  padding-top: 5px;
+}
